@@ -259,7 +259,7 @@ class FluidSimulation2D:
 
 if __name__ == "__main__":
     obj = MeshImage(
-        '/home/daniel/Área de Trabalho/python_codigos/fluidos/simu 2D/image/circulo3.png')
+        '/image/circulo3.png')
     print(type(obj.shape()))
     simu = FluidSimulation2D(obj)
     simu.initialize()
