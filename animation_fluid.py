@@ -9,7 +9,7 @@ import matplotlib
 performanceData = True
 
 obj = MeshImage(
-    '/home/daniel/Área de Trabalho/python_codigos/fluidos/simu 2D/image/barra2.png')
+    '/image/barra2.png')
 
 simu = FluidSimulation2D(obj)
 simu.viscosity = 0.005
